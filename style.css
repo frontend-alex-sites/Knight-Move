@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    background: url('images/knightmovebody.jpg') center/cover;
+    background-size: 100%; /* Увеличить в X раз */
+    background-position: center 3%; /* Поиграй с 25%, 10%, 40%  высота, какую часть показать*/
+}
+.logo{
+    color: #ffffffdf;
+    font-size: 48px;
+    margin-left: 30px;  /* Отступ снаружи контейнера */
+}
+.tagline {
+    color: #ffffffdf;
+    font-size: 16px;
+    margin-left: 30px;  /* Отступ снаружи контейнера */
+    margin-top:  10px; /* Отрицательный margin поднимет вверх */
+    letter-spacing: 2px; /* Этот шрифт часто требует увеличения межбуквенного расстояния */
+}
+.about{
+    margin-left: 30px;
+    margin-top: 40px ;
+}
+.about h2 {
+    color: #ffffffdf;
+}
+.about p {
+    color: #ffffffdf;
+    margin-top: 7px;
+}
+hr {
+    width: 342px;
+    margin-left: 31px;
+    margin-top: 10px;
+}
+.Zapis {
+    color: #000;
+    background: #ffffffd9;
+    margin-left: 120px;
+    margin-top: 45px;
+    font-size: 18px;
+    padding: 5px 15px;
+    border: #000000c2;
+    border-style: solid;  
+    border-width: 1.5px;
+    border-radius: 30px;
+    transition: all 0.4s ease; /* Плавные изменения */
+}
+.Zapis:hover {
+    background: #ffffffcf;
+    box-shadow: 0 0 20px 3px #f8f8f8cc;
+}
+.features {
+    margin-left: 30px;
+    color: #ffffffd9;
+    max-width: 420px;
+    margin-top: 50px;
+}
+.features h2 {
+    margin-top: 20px;
+    font-weight: 900;
+}
+.features h3 {
+    margin-top: 10px;
+}
+.features h2,h3 {
+    margin-top: -10px;
+}
+.signup {
+    margin-left: 50px;
+    margin-top: 15px;
+    color: #ffffffd9;
+    padding-top: 10px;
+}
+.signup input{
+    margin-top: 10px;
+}
+.schedule {
+    margin-top: 60px;
+    color: #ffffffd9;
+    background: #00000036;
+    max-width: 472px;
+    margin-left: 10px;
+    letter-spacing: 0.5px;
+    border: #0000004e;  
+    border-radius: 10px;
+}
+.schedule-table td:nth-child(1) {
+    width: 120px;
+}
+.schedule-table td:nth-child(2) {
+    width: 220px;
+}
+.schedule-table td:nth-child(3) {
+    width: 100px;
+    position: relative;
+    left: 20px;
+}
+.schedule-table{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.schedule h2{
+    margin-left: 130px;
+    margin-top: 40px;
+    padding-top: 5px;
+}
+.schedule-table,h2{ margin-left: 10px;
+}
+.map-image {
+    border-radius: 25px;
+    max-width: 400px;
+    height: auto;
+    opacity: 0.7;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: -10px;
+    transition: transform 0.3s ease;
+}
+.map-image:hover {
+    transform: scale(1.05);
+}
+.map h3{
+    color: #ffffffd9;
+    margin-left: 175px;
+    margin-top: 30px;
+}
+.map {
+    margin-top: 45px;
+}
+.footer {
+    color: #ffffffd9;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+.footer h3{
+    margin-left: 30px;
+}
+.schedule-table tbody tr:hover {
+    background: rgba(255, 215, 0, 0.15);
+    cursor: pointer;
+    transform: scale(1.01);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
